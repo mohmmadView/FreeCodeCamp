@@ -1,0 +1,105 @@
+body{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:#acacac;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width:90% ;
+  padding:1.5rem;
+  border-bottom: 2px solid #857f7f;
+}
+.container{
+  font-weight: bold;
+  border-top-right-radius:10%;
+  border-bottom-left-radius:10%;
+  background-color: #EEEEEE;
+}
+.container ,form{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+/* #dropdown{
+  margin-top:1rem;
+} */
+input , #dropdown , label{
+  padding: 0.2rem;
+  margin: 0.2rem;
+  
+}
+input[type="radio"],input[type="checkbox"]{
+ display: block; 
+}
+.friend{
+  display: flex;
+  justify-content: space-around;
+
+}
+label{
+  width: 32.5%;
+}
+.radio-group{
+  display: flex;
+  width: 32.5%;
+}
+.group-checkbox{
+  display: flex;
+  flex-direction: column;
+}
+#check1{
+  width:50% ;
+}
+.checkbox{ 
+ display: flex;
+}
+.commentForm{
+  display: flex;
+  height: 200px;
+  flex-direction: column ;
+}
+#submit{
+  margin: 0.5rem;
+ margin-left: auto;
+ margin-right: auto;
+ }
+  #comments{
+    height: 100px;
+  }
+/*input
+ h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  } */
