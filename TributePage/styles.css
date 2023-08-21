@@ -13,9 +13,8 @@ body {
    
   h1 {
     text-align: center;
-
-       color: rgb(25, 169, 92);
-    font: italic small-caps bold 2.8rem Georgia, serif; 
+    color: #D8D9DA;
+    font: italic small-caps bold px Georgia, serif; 
   }
   
   #img-div {

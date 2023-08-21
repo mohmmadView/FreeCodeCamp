@@ -8,28 +8,28 @@
   </head> 
   <body>
     <div class="container">
-       <h1 id="title">FreeCodeCamp Form</h1>
-        <p id="description">Please fill out this form to   provide us with your feedback.</p>
+       <h1 id="title">Student Registration Form</h1>
+        <p id="description">Basic Information</p>
          <form  id="survey-form">
-           <label id="name-label" for="name">name</label>
-        <input type="text" id="name" placeholder="Your name" required>  
+           <label id="name-label" for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Full Name" required>  
         
            <label id="email-label" for="name">email</label>
          <input type="email" id="email" placeholder="Your email" required>
            
-           <label id="number-label" for="name">phone</label>
-          <input type="number" id="number" placeholder="Your number" min="1" max="100">
+           <label id="number-label" for="name"> Student Number </label>
+          <input type="number" id="number" placeholder="Student Number" min="20" max="30">
 
-          <label id="title" for="name">Which option best describes your current role?</label>
+          <label id="title" for="name"> Estimate Your Family Monthly Income ?</label>
            <select id="dropdown">
-         <option value="1">student</option>
-         <option value="2">Full Time Job</option>
-         <option value="3">full time Learner</option>
-         <option value="4">prefer not to say</option>
-         <option value="5">other</option>
+         <option value="1">p20,000</option>
+         <option value="2">p21,000 - p40,000</option>
+         <option value="3">p41,000 - p60,000</option>
+         <option value="4">p61,000 - p80,000</option>
+         <option value="5">others</option>
            </select>
 
-            <label id="title" for="name">Would you recommend freeCodeCamp to a friend?</label>
+            <label id="title" for="name">Other Details </label>
             <section class="friend">
              <div class="radio-group" >
                <label for="gender">Definitely</label>
@@ -48,19 +48,19 @@
             <label id="title" for="name">What would you like to see improved</label>
             <div class="group-checkbox">
              <div class="checkbox">
-               <label for="check1">Fronted</label>
+               <label for="check1">class 10</label>
                 <input type="checkbox" id="check1" value="fronted">
               </div>
               <div class="checkbox">
-              <label for="name">backEnd</label>
+              <label for="name">class 11</label>
               <input type="checkbox" id="check1" value="backEnd">
              </div>
              <div class="checkbox">
-              <label for="name">fullStack-Developer</label>
+              <label for="name">class 12</label>
               <input type="checkbox" id="check1" value="Open Source Community">
                </div>
                </div>
-              <label id="title" for="name">Open Source Community</label>
+              <label id="title" for="name">More information about student</label>
             <div class="commentForm">
             <textarea id="comments" placeholder="Your comments"></textarea>
             <button id="submit">Submit</button>
