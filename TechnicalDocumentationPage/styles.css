@@ -5,7 +5,7 @@ html{
   font-size: larger;
 }
 body {
-  width: 80%;
+  width: 95%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -14,18 +14,17 @@ body {
   box-shadow: inset black;
 }
 #main-doc {
-  /* position: absolute; */
-  width: 100%;
-
+  width: 80%;
+  margin-left: 25%;
 }
 #navbar {
   color: #9ECE9A;
   position: fixed;
-  display: flex;
-  width: 80%;
-  height:4rem;
-  align-items: center;
-  justify-content: center;
+  width: 20%;
+  height: 100vh;
+  margin-right: 3rem;
+  border-right: 3px solid rgb(124, 255, 17);
+  padding: 1rem;
 }
 h2{
   color: rgb(46, 80, 8);
@@ -33,16 +32,12 @@ h2{
 header {
   color:  #E4C5AF;
   font-weight: bold;
-  margin-top: 10vh;
   font-size: 2.5rem;
-  text-align: center;
   background-color:#077187 ;
   padding: 1rem;
 }
 .list {
-  display: flex;
   align-items: center;
-  height: 70%;
   list-style-type: none;
   background-color:#074F57;
   margin: 0;
