@@ -50,6 +50,7 @@ header {
 }
 .list li {
   color: #9ECE9A;
+   background-color:#074F57;
   font-size: large;
   border: 2px solid rgb(208, 238, 40);
   padding: 1rem;
@@ -91,12 +92,15 @@ code {
 }
 
 @media only screen and (max-width: 700px) {
+  body{
+    width: 100%;
+  }
   #navbar {
-    width: 30%;
+    width: 100%;
   }
   #main-doc {
-    width: 70%;
-    margin-left: 35%;
+    width: 100%;
+  
   }
 }
 
