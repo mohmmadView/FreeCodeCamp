@@ -1,6 +1,5 @@
 body{
    margin: 0 auto; 
-    
 }
 main{
     width: 100%;
@@ -47,12 +46,10 @@ header{
     justify-content: center;
 }
 #video{
-
     width: 100%;
-    
 }
-#Who{
-    display: flex;
+.header--title{
+      display: flex;
     width: 80%;
     flex-direction: column;
     align-items: center;
@@ -60,8 +57,10 @@ header{
     padding: 5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+     ;font-size: larger;
+}
+#Who{
     background-color: #1b241d
-   
 }
 .Who__description{
     display: flex;
@@ -70,6 +69,7 @@ header{
 }
 .Who__description__title{
     font-size: 6rem;
+
     padding: 2rem 1rem;
     margin:0rem ;
 }
@@ -78,7 +78,6 @@ header{
     font-size: larger;
 }
 .Who__description--text2{
- 
     font-size: larger;
     width: 60%;
 }
@@ -86,4 +85,42 @@ header{
     font-size: small;
     
 }
+#Our-Purpose{
+    background-color: #1c1b24
+   
+}
+.OurPurpose__description1>h1{
+    text-align: center;
+       background-color: #5248502c;
+    font-size: 6rem;
+    padding: 2rem 1rem;
+    margin:0rem ;
+}
+#Services{
+    background-color: #241b1d
+
+}
+.Service__title{
+ font-size: 6rem;
+ padding: 2rem 1rem;
+ margin:0rem ;
+}
+#Services>p{
+    font:bold larger Georgia, 'Times New Roman', Times, serif;
+    color: rgb(159, 244, 255);
+}
+.Service__container--img{
+    display: flex;
+}
+.Service__container--img>div>img{
+    width: 85%;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#About-Us{
+    background-image: url("https://sanitary.nyc/wp-content/uploads/2019/05/about-us-bg.jpg");: #23241b
+ ;   block-size: cover;
+}
+
 /* https://sanitary.nyc/wp-content/uploads/2019/05/history-bg.jpg */
