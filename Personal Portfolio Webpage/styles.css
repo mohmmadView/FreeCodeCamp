@@ -1,5 +1,6 @@
 /* Add your CSS styles here */
 body {
+ background: #686565;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,12 +13,28 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+height: 7vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
-
+a{
+color: #fcba03;
+text-decoration: none;
+}
 #navbar {
+    
+    width: 40vw;
+    height: 3vh;
+    font-size: 2.6vh;
     display: flex;
     justify-content: space-around;
+    align-self: center;
     padding: 10px;
+}
+.header__logo{
+    width: 2vw;
+    height: 7vh;
 }
 
 section {
@@ -25,14 +42,30 @@ section {
     text-align: center;
 }
 
-#welcome-section {
-    height: 100vh; /* Set the height to viewport height */
+#welcome-section { 
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    color: #fcba03;
+   align-content: center;
+    height: 86vh; /* Set the height to viewport height */
 }
-
+.title__name--name{
+    font-size: 4vw;
+    margin: 0rem;
+}
+.title__name--welcome{
+    font-size: 2vw;
+    margin: 0.5rem;
+    color: rgb(5, 6, 15);
+}
 .project-tile {
     /* Add styles for project tiles */
 }
-
+.container__welcome{
+      align-self: center;
+      width:70vw ;
+}
 footer {
     background-color: #333;
     color: white;
