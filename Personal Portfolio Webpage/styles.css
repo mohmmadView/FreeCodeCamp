@@ -44,11 +44,14 @@ section {
 
 #welcome-section { 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: left;
     color: #fcba03;
    align-content: center;
-    height: 86vh; /* Set the height to viewport height */
+    height: 92.7vh; /* Set the height to viewport height */
+    background: border-box ;
+     border: #333 solid 15px;
 }
 .title__name--name{
     font-size: 4vw;
@@ -59,12 +62,36 @@ section {
     margin: 0.5rem;
     color: rgb(5, 6, 15);
 }
+.logo__github{
+  
+}
+.container__logo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+.container__logo>a{
+    width: 3vw;
+    height: 8vh;
+    align-self: end;
+}
 .project-tile {
     /* Add styles for project tiles */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 70%;
+    height: 70%;
+     border: #333 solid 15px;
+
 }
 .container__welcome{
       align-self: center;
-      width:70vw ;
+      width:50vw;
+      height: 70vh;
+      padding: 30px;
+    
 }
 footer {
     background-color: #333;
@@ -72,7 +99,96 @@ footer {
     text-align: center;
     padding: 10px;
 }
+#projects{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+   
+}
 
+.container__project{
+    display: flex;
+}
+.project__div1{
+    margin-right: 10px;
+}
+.project__div--project{
+    width: 25vw;
+    height: 35vh;
+}
+.project1{
+    background-image: url(./img/57033.jpg);
+    background-size: cover;
+    margin-bottom: 0.5rem;
+}
+.project2{
+    background-image: url(./img/nubelson-fernandes-gTs2w7bu3Qo-unsplash.jpg);
+    background-size: cover;
+}
+.project3{
+    background-image: url(./img/pexels-olia-danilevich-4974914.jpg);
+    background-size: cover; 
+    margin-bottom: 0.5rem;
+}
+.project4{
+    background-image: url(./img/wallpapersden.com_developer-minimal_1920x1080.jpg);
+    background-size: cover;
+}
+#skill{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container__skill {
+    /* Add styles for project tiles */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 70%;
+    height: 70%;
+
+}
+.about__content-title{
+    color: #fcba03;
+    font-size: 4vw;
+    margin-bottom: 4.5rem;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+}
+.skills>div{
+    margin: 1rem;
+    border-radius: 15px;
+    width: 20%;
+    height: 50%;
+    padding: 1rem;
+ background-color: bisque;
+}
+.skills>div:nth-child(odd){
+   background-color: #fdfdfd4f;
+color: white;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.about__content{
+    width: 70%;
+    justify-content: center;
+}
+.about__content-description{
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 2rem;
+    font-size: 1.5vw;
+    color: bisque;
+}
 /* Add media queries for responsive design */
 @media screen and (max-width: 768px) {
     /* Add styles for smaller screens */
