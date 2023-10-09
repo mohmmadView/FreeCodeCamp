@@ -26,11 +26,22 @@ text-decoration: none;
     
     width: 40vw;
     height: 3vh;
+  
     font-size: 2.6vh;
     display: flex;
     justify-content: space-around;
     align-self: center;
     padding: 10px;
+}
+.navbar__div{
+    padding: 1vh;
+    width: 8vw;
+}
+.navbar__item{
+    
+}
+#navbar>a:hover{
+    background-color:#A29F8C ;
 }
 .header__logo{
     width: 2vw;
@@ -91,7 +102,7 @@ section {
       width:50vw;
       height: 70vh;
       padding: 30px;
-    
+    background-:#a29f8cb6 ;
 }
 footer {
     background-color: #333;
